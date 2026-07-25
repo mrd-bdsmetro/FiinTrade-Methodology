@@ -1,5 +1,7 @@
 # FiinTrade Methodology
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Bộ tài liệu phương pháp luận chính thức của **FiinTrade** — nền tảng công nghệ tài chính của **FiinGroup** (tiền thân là StoxPlus), phục vụ nhà đầu tư, chuyên viên tư vấn, môi giới và trader tại thị trường chứng khoán Việt Nam.
 
 ## Tài liệu
@@ -23,6 +25,10 @@ Bộ tài liệu phương pháp luận chính thức của **FiinTrade** — n�
 
 Thành lập năm 2008, FiinGroup là công ty hàng đầu Việt Nam trong lĩnh vực cung cấp thông tin tài chính đa chiều, dữ liệu thị trường tức thời, báo cáo phân tích chứng khoán, công cụ quản lý đầu tư và tin tức thị trường.
 
+## Kiến trúc
+
+Xem [ARCHITECTURE.md](docs/ARCHITECTURE.md) để biết cấu trúc thư mục, pipeline CI và hướng dẫn đóng góp.
+
 ## Giấy phép
 
-Proprietary — © FiinGroup. Vui lòng tham khảo FiinGroup để biết thêm chi tiết về quyền sử dụng.
+Dự án này được phân phối dưới giấy phép MIT. Xem [LICENSE](LICENSE) để biết thêm chi tiết.
