@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "*.json"
+  pull_request:
+    branches: [main]
+    paths:
+      - "*.json"
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate JSON files
+        run: |
+          for f in *.json; do
+            echo "Validating $f..."
+            python -m json.tool "$f" > /dev/null || exit 1
+          done
